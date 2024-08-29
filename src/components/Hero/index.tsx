@@ -22,7 +22,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="absolute right-1 top-0 z-[-1] opacity-30 lg:opacity-100 hidden lg:block">
+          <div className="absolute right-1 top-0 z-[-1] sm:opacity-10 xl:opacity-50 2xl:opacity-100 lg:block">
           <CircleMoving />
           </div>
         </div>
