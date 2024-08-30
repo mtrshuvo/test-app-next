@@ -31,7 +31,7 @@ const Footer = () => {
                     <ul className="space-y-3">
                       <li className="flex items-start space-x-4">
                         <span className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white">
-                          <img className="custom-filter" src="images/footer/office.svg" alt="office" /> {/* Replace with actual icon */}
+                          <img className="custom-filter" src="images/footer/office.svg" alt="office" /> 
                         </span>
                         <div>
                           <p className="font-bold text-lg text-black dark:text-white">Bangladesh Office</p>
@@ -40,15 +40,15 @@ const Footer = () => {
                           <p className="text-sm text-black dark:text-white">email: nurulislam6262@gmail.com</p>
                         </div>
                       </li>
-                      <li className="flex items-start space-x-4">
+                      {/* <li className="flex items-start space-x-4">
                         <span className="flex-shrink-0 w-8 h-8  rounded-full flex items-center justify-center text-white">
-                        <img className="custom-filter" src="images/footer/office.svg" alt="office" /> {/* Replace with actual icon */}
+                        <img className="custom-filter" src="images/footer/office.svg" alt="office" />
                         </span>
                         <div>
                           <p className="font-bold text-lg  text-black dark:text-white">Japan Office</p>
                           <p className="text-sm text-black dark:text-white">456 Another Rd, City</p>
                         </div>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
               </div>
@@ -147,14 +147,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   
-                  <li>
-                    <Link
-                      href="/about"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      About
-                    </Link>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
