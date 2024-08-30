@@ -129,7 +129,7 @@ const ContactForm: React.FC = () => {
             type="submit"
             className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
             disabled={isCooldown}
-            title={isCooldown && "Try send message after 10 minutes"}
+            title={isCooldown ? "Try send message after 10 minutes": ""}
           >
             Send Message
           </button>
