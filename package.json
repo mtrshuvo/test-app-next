@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "lab-semantics",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "clsx": "^2.1.1",
+    "emailjs": "^4.0.3",
+    "emailjs-com": "^3.2.0",
     "eslint": "^8.56.0",
     "eslint-config-next": "^14.1.0",
     "framer-motion": "^11.3.30",

@@ -12,11 +12,11 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                PARTNER FOR YOUR NEXT INNOVATION.
+                <h1 className="mb-5 text-2xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                Innovating the Future with AI: Research, Develop, Transform
                 </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto molestiae fugiat enim eligendi rerum vel quisquam a accusantium sit deserunt. Modi quos harum esse! Illo amet ab iste distinctio aut?
+                <p className="mb-12 text-pretty !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                Transform your business with cutting-edge AI solutions. We offer expertise in AI research, development, consulting, and custom tool creation. Unlock innovation, optimize operations, and stay ahead with our tailored AI strategies for sustainable growth and industry leadership.
                 </p>
                 
               </div>

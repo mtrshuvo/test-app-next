@@ -10,7 +10,7 @@ const Features = () => {
           <SectionHeader
             headerInfo={{
               title: "Services",
-              subtitle: "Core Features of Solid",
+              subtitle: "Core Features of LABSEMANTICS",
               description: `We use Agile as well as DevOps process to provide the services leveraging cutting edge technologies. Our services include
 
               `,

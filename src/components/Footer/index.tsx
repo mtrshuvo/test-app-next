@@ -26,10 +26,34 @@ const Footer = () => {
                     height={30}
                   />
                 </Link>
-                <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
-                </p>
+                <div className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  <div className="space-y-4">
+                    <ul className="space-y-3">
+                      <li className="flex items-start space-x-4">
+                        <span className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white">
+                          <img src="images/footer/office.svg" alt="office" /> {/* Replace with actual icon */}
+                        </span>
+                        <div>
+                          <p className="font-medium text-lg">Bangladesh Office</p>
+                          <p className="text-sm text-gray-500">House #64, Road #5, Block C, Mirpur-12, Dhaka</p>
+                          <p className="text-sm text-gray-500">Phone: +880 175382 5779</p>
+                          <p className="text-sm text-gray-500">email: </p>
+
+                        </div>
+                      </li>
+                      <li className="flex items-start space-x-4">
+                        <span className="flex-shrink-0 w-8 h-8  rounded-full flex items-center justify-center text-white">
+                          <i className="fas fa-phone-alt"></i> {/* Replace with actual icon */}
+                        </span>
+                        <div>
+                          <p className="font-medium text-lg">Japan Office</p>
+                          <p className="text-sm text-gray-500">456 Another Rd, City</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+
                 <div className="flex items-center">
                   <a
                     href="/"
