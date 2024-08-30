@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-console.log(process.env.EMAIl_U_ID);
+console.log(process.env.NEXT_PUBLIC_ANALYTICS_ID);
 
   const [status, setStatus] = useState(null);
 
@@ -16,9 +16,9 @@ console.log(process.env.EMAIl_U_ID);
   };
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const userID = 'user_mF812FOK6OmjB48aGokge';
-    const serviceID = 'service_rg6d7ae';
-    const templateID = 'template_g8ejmzs';
+    const userID = process.env.NEXT_PUBLIC_userID;
+    const serviceID = process.env.NEXT_PUBLIC_serviceID;
+    const templateID = process.env.NEXT_PUBLIC_templateID;
       
       emailjs.send(serviceID, templateID, formData, userID)
       .then((result) => {
