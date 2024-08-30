@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 
 const ContactForm: React.FC = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+console.log(process.env.EMAIl_U_ID);
 
   const [status, setStatus] = useState(null);
 
