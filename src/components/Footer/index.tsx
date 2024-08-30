@@ -31,23 +31,23 @@ const Footer = () => {
                     <ul className="space-y-3">
                       <li className="flex items-start space-x-4">
                         <span className="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center text-white">
-                          <img src="images/footer/office.svg" alt="office" /> {/* Replace with actual icon */}
+                          <img className="custom-filter" src="images/footer/office.svg" alt="office" /> {/* Replace with actual icon */}
                         </span>
                         <div>
-                          <p className="font-medium text-lg">Bangladesh Office</p>
-                          <p className="text-sm text-gray-500">House #64, Road #5, Block C, Mirpur-12, Dhaka</p>
-                          <p className="text-sm text-gray-500">Phone: +880 175382 5779</p>
-                          <p className="text-sm text-gray-500">email: </p>
+                          <p className="font-bold text-lg text-black dark:text-white">Bangladesh Office</p>
+                          <p className="text-sm text-black dark:text-white">House #64, Road #5, Block C, Mirpur-12, Dhaka</p>
+                          <p className="text-sm text-black dark:text-white">Phone: +880 175382 5779</p>
+                          <p className="text-sm text-black dark:text-white">email: </p>
 
                         </div>
                       </li>
                       <li className="flex items-start space-x-4">
                         <span className="flex-shrink-0 w-8 h-8  rounded-full flex items-center justify-center text-white">
-                          <i className="fas fa-phone-alt"></i> {/* Replace with actual icon */}
+                        <img className="custom-filter" src="images/footer/office.svg" alt="office" /> {/* Replace with actual icon */}
                         </span>
                         <div>
-                          <p className="font-medium text-lg">Japan Office</p>
-                          <p className="text-sm text-gray-500">456 Another Rd, City</p>
+                          <p className="font-bold text-lg  text-black dark:text-white">Japan Office</p>
+                          <p className="text-sm text-black dark:text-white">456 Another Rd, City</p>
                         </div>
                       </li>
                     </ul>
@@ -141,7 +141,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Blog
@@ -186,14 +186,7 @@ const Footer = () => {
                   Support & Help
                 </h2>
                 <ul>
-                  <li>
-                    <Link
-                      href="/contact"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                    >
-                      Open Support Ticket
-                    </Link>
-                  </li>
+                
                   <li>
                     <Link
                       href="/"

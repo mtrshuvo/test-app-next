@@ -22,12 +22,11 @@ console.log(process.env.NEXT_PUBLIC_ANALYTICS_ID);
       
       emailjs.send(serviceID, templateID, formData, userID)
       .then((result) => {
-        console.log('Email successfully sent:', result.text);
-        alert('Email sent successfully!');
+        setStatus('Email sent successfully!');
       })
       .catch((error) => {
-        console.error('Error sending email:', error);
-        alert('Failed to send email. Please try again.');
+        
+        setStatus('Failed to send email. Please try again. ');
       });
   };
   return (

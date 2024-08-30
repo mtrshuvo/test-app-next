@@ -48,3 +48,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10px;
 
 }
+
+.custom-filter {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(96%) saturate(3133%) hue-rotate(218deg) brightness(97%) contrast(90%);
+}
