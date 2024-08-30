@@ -10,7 +10,7 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
           {/* <img style={{
             filter: "brightness(0) saturate(100%) invert(29%) sepia(52%) saturate(533%) hue-rotate(191deg) brightness(87%) contrast(84%"
           }} src={icon} alt={title}  /> */}
-          {icon}
+          <Image src= {icon} alt="icon"  />
         </div>
         <h3 className="mb-5 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
           {title}
