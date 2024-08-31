@@ -1,15 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    domains: ["localhost"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
-      },
-    ],
-  },
+// next.config.js
+module.exports = {
+  output: 'export',
+  // You might also need to set the base path if your site isn't at the root of your domain
+  // basePath: '/your-base-path',
 };
-
-module.exports = nextConfig;
